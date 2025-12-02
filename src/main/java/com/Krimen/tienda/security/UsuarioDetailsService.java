@@ -1,7 +1,7 @@
-package com.bryan.tienda.security;
+package com.Krimen.tienda.security;
 
-import com.bryan.tienda.model.Usuario;
-import com.bryan.tienda.repository.UsuarioRepository;
+import com.Krimen.tienda.model.Usuario;
+import com.Krimen.tienda.repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.*;

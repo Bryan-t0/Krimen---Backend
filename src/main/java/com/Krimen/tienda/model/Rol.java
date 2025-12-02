@@ -1,4 +1,4 @@
-package com.bryan.tienda.model;
+package com.Krimen.tienda.model;
 
 public enum Rol {
     ADMIN,

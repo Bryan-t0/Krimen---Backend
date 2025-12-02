@@ -1,10 +1,10 @@
-package com.bryan.tienda.config;
+package com.Krimen.tienda.config;
 
-import com.bryan.tienda.model.Producto;
-import com.bryan.tienda.model.Rol;
-import com.bryan.tienda.model.Usuario;
-import com.bryan.tienda.repository.ProductoRepository;
-import com.bryan.tienda.repository.UsuarioRepository;
+import com.Krimen.tienda.model.Producto;
+import com.Krimen.tienda.model.Rol;
+import com.Krimen.tienda.model.Usuario;
+import com.Krimen.tienda.repository.ProductoRepository;
+import com.Krimen.tienda.repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;

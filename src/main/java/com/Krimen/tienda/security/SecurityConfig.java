@@ -1,4 +1,4 @@
-package com.bryan.tienda.security;
+package com.Krimen.tienda.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

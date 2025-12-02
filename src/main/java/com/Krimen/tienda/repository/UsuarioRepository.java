@@ -1,6 +1,6 @@
-package com.bryan.tienda.repository;
+package com.Krimen.tienda.repository;
 
-import com.bryan.tienda.model.Usuario;
+import com.Krimen.tienda.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

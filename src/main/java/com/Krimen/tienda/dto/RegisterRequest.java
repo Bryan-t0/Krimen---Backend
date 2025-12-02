@@ -1,6 +1,6 @@
-package com.bryan.tienda.dto;
+package com.Krimen.tienda.dto;
 
-import com.bryan.tienda.model.Rol;
+import com.Krimen.tienda.model.Rol;
 import lombok.Data;
 
 @Data

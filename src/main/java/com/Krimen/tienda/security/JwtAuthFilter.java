@@ -1,4 +1,4 @@
-package com.bryan.tienda.security;
+package com.Krimen.tienda.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

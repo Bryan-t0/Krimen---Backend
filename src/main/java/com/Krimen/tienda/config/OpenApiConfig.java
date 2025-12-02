@@ -1,4 +1,4 @@
-package com.bryan.tienda.config;
+package com.Krimen.tienda.config;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;

@@ -1,7 +1,7 @@
-package com.bryan.tienda.controller;
+package com.Krimen.tienda.controller;
 
-import com.bryan.tienda.model.Producto;
-import com.bryan.tienda.repository.ProductoRepository;
+import com.Krimen.tienda.model.Producto;
+import com.Krimen.tienda.repository.ProductoRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;

@@ -1,11 +1,11 @@
-package com.bryan.tienda.controller;
+package com.Krimen.tienda.controller;
 
-import com.bryan.tienda.dto.LoginRequest;
-import com.bryan.tienda.dto.RegisterRequest;
-import com.bryan.tienda.model.Rol;
-import com.bryan.tienda.model.Usuario;
-import com.bryan.tienda.security.JwtService;
-import com.bryan.tienda.service.UsuarioService;
+import com.Krimen.tienda.dto.LoginRequest;
+import com.Krimen.tienda.dto.RegisterRequest;
+import com.Krimen.tienda.model.Rol;
+import com.Krimen.tienda.model.Usuario;
+import com.Krimen.tienda.security.JwtService;
+import com.Krimen.tienda.service.UsuarioService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

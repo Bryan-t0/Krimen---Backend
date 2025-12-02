@@ -1,7 +1,7 @@
-package com.bryan.tienda.service;
+package com.Krimen.tienda.service;
 
-import com.bryan.tienda.model.Usuario;
-import com.bryan.tienda.repository.UsuarioRepository;
+import com.Krimen.tienda.model.Usuario;
+import com.Krimen.tienda.repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

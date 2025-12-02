@@ -1,4 +1,4 @@
-package com.bryan.tienda.dto;
+package com.Krimen.tienda.dto;
 
 import lombok.Data;
 

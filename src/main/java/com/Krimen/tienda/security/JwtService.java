@@ -1,6 +1,6 @@
-package com.bryan.tienda.security;
+package com.Krimen.tienda.security;
 
-import com.bryan.tienda.model.Usuario;
+import com.Krimen.tienda.model.Usuario;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Value;
