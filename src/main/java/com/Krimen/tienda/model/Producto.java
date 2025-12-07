@@ -1,6 +1,7 @@
 package com.Krimen.tienda.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.*;
 import lombok.Data;
 
 @Entity
@@ -11,11 +12,22 @@ public class Producto {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotBlank
     private String nombre;
 
+    @NotNull
+    @Positive
     private Double precio;
-    private String categoria;
-    private Boolean oferta;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private Categoria categoria;
+
+    @NotNull
+    private Boolean oferta = false;
+
+    @NotNull
+    @Min(0)
     private Integer stock;
 
     @Column(length = 500)
