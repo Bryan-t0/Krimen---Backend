@@ -14,4 +14,10 @@ public class Producto {
     private String nombre;
 
     private Double precio;
+    private String categoria;
+    private Boolean oferta;
+    private Integer stock;
+
+    @Column(length = 500)
+    private String image;
 }
